@@ -12,7 +12,7 @@ setup(
     long_description="This is a package",
     install_requires=[
         "six",
-        "sibling_package @ git+https://github.com/sarugaku/pipenv-test-fixtures.git@master#subdirectory=fixtures/parent_folder/sibling_package",
+        "sibling_package @ git+https://github.com/techalchemy/test-project.git@master#subdirectory=parent_folder/sibling_package",
     ],
     extras_require={"testing": ["coverage", "flaky"], "dev": ["parver", "invoke", "wheel"]},
     package_dir={"": "src"},
